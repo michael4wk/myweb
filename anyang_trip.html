@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安阳三日游行程规划</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .weather-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .weather-day {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 200px;
+            text-align: center;
+        }
+        
+        .itinerary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .day-plan {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .day-header {
+            background-color: #4285f4;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+        }
+        
+        .activity {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .activity:last-child {
+            border-bottom: none;
+        }
+        
+        .time {
+            font-weight: bold;
+            color: #4285f4;
+        }
+        
+        .attraction-card {
+            margin: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .attraction-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .attraction-info {
+            padding: 15px;
+        }
+        
+        .transport {
+            background-color: #f1f8fe;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .tips {
+            background-color: #fff8e1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>安阳三日游行程规划</h1>
+        <p>2025年5月23日-25日 | 北京出发</p>
+    </div>
+    
+    <div class="weather-info">
+        <div class="weather-day">
+            <h3>5月23日</h3>
+            <p>白天: 阴 28°C</p>
+            <p>夜间: 晴 18°C</p>
+            <p>东南风 1-3级</p>
+        </div>
+        <div class="weather-day">
+            <h3>5月24日</h3>
+            <p>白天: 多云 35°C</p>
+            <p>夜间: 阴 23°C</p>
+            <p>南风 1-3级</p>
+        </div>
+        <div class="weather-day">
+            <h3>5月25日</h3>
+            <p>白天: 阴 28°C</p>
+            <p>夜间: 多云 16°C</p>
+            <p>西北风 1-3级</p>
+        </div>
+    </div>
+    
+    <div class="transport">
+        <h2>交通信息</h2>
+        <h3>北京到安阳高铁班次</h3>
+        <ul>
+            <li>G651次：北京西 07:30 - 安阳东 10:08</li>
+            <li>G655次：北京西 09:15 - 安阳东 11:53</li>
+            <li>G659次：北京西 13:30 - 安阳东 16:08</li>
+        </ul>
+        <p>车程约2.5小时，建议提前30分钟到达车站。</p>
+        <p>安阳市内建议使用出租车或公交出行。</p>
+    </div>
+    
+    <div class="itinerary">
+        <div class="day-plan">
+            <div class="day-header">第一天：历史文化之旅</div>
+            <div class="activity">
+                <span class="time">08:00-12:00</span>
+                <h3>殷墟宫殿宗庙遗址</h3>
+                <p>探索商朝古都遗址，了解中国最早的文字</p>
+            </div>
+            <div class="activity">
+                <span class="time">12:00-13:30</span>
+                <h3>午餐</h3>
+                <p>推荐：殷墟附近特色餐馆</p>
+            </div>
+            <div class="activity">
+                <span class="time">14:00-17:00</span>
+                <h3>中国文字博物馆</h3>
+                <p>了解汉字发展历史</p>
+            </div>
+            
+            <div class="attraction-card">
+                <img src="http://store.is.autonavi.com/showpic/a0583555f3a60c44e70fb16e2454d812" alt="殷墟" class="attraction-img">
+                <div class="attraction-info">
+                    <h3>殷墟宫殿宗庙遗址</h3>
+                    <p>地址：殷墟路北段</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-plan">
+            <div class="day-header">第二天：自然奇观之旅</div>
+            <div class="activity">
+                <span class="time">07:30-12:00</span>
+                <h3>林州太行大峡谷</h3>
+                <p>欣赏壮丽的峡谷风光</p>
+            </div>
+            <div class="activity">
+                <span class="time">12:00-13:30</span>
+                <h3>午餐</h3>
+                <p>推荐：景区内农家乐</p>
+            </div>
+            <div class="activity">
+                <span class="time">14:00-17:00</span>
+                <h3>红旗渠风景区</h3>
+                <p>参观人工天河奇迹</p>
+            </div>
+            
+            <div class="attraction-card">
+                <img src="http://store.is.autonavi.com/showpic/3a5c1b3272f016f6959126676778cfa2" alt="太行大峡谷" class="attraction-img">
+                <div class="attraction-info">
+                    <h3>林州太行大峡谷</h3>
+                    <p>地址：石板岩镇林石线</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="day-plan">
+            <div class="day-header">第三天：人文历史之旅</div>
+            <div class="activity">
+                <span class="time">08:30-11:30</span>
+                <h3>岳飞庙</h3>
+                <p>瞻仰民族英雄岳飞</p>
+            </div>
+            <div class="activity">
+                <span class="time">12:00-13:30</span>
+                <h3>午餐</h3>
+                <p>推荐：老城区特色美食</p>
+            </div>
+            <div class="activity">
+                <span class="time">14:00-17:00</span>
+                <h3>仓巷街</h3>
+                <p>漫步古街，感受安阳老城风貌</p>
+            </div>
+            
+            <div class="attraction-card">
+                <img src="http://store.is.autonavi.com/showpic/86342b3db6a73b8b80eed722a41a8ae0" alt="岳飞庙" class="attraction-img">
+                <div class="attraction-info">
+                    <h3>岳飞庙</h3>
+                    <p>地址：文化街142号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="tips">
+        <h2>实用信息</h2>
+        <ul>
+            <li>紧急电话：报警 110，急救 120</li>
+            <li>5月安阳天气较热，请做好防晒措施</li>
+            <li>建议提前预订景点门票</li>
+            <li>安阳特色美食：道口烧鸡、安阳三熏</li>
+        </ul>
+    </div>
+</body>
+</html>
